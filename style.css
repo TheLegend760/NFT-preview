@@ -1,0 +1,151 @@
+html {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    display: block;
+    height: 37.5em;
+    width: 22.5em;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1em;
+    position:absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.card img {
+    display: block;
+    border-radius: 1em;
+    width: 300px;
+    margin: 1.5em auto;
+    height: auto;
+}
+
+/* ==============================OVERLAY================================== */
+.image {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: hsl(178, 100%, 50%);
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 1em;
+  }
+
+  .image:hover .overlay {
+    opacity: .7;
+    cursor: pointer;
+  }
+
+
+  .viewicon {
+      margin-top: 8em;
+  }
+
+.viewicon img {
+    width: 3em;
+}
+  
+
+/* ==============================OVERLAY================================== */
+
+/* ==============================TEXT================================== */
+.textbox {
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    padding-left: 1.6em;
+    padding-right: 1.3em;
+}
+
+h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+}
+
+.ethtext {
+    display: block;
+    margin-top: .2em;
+}
+
+.daytext {
+    display: block;
+    margin-top: -1.4em;
+    margin-left: 2em;
+}
+
+.creator {
+    border-top: 1px solid hsl(215, 51%, 70%);
+    margin-top: 1em;
+    display: flex;
+}
+
+.creator img {
+    display: block;
+    width: 2em;
+    border: 1px solid white;
+    margin: 1em 0;
+}
+
+.creatortext {
+margin-top: 1.4em;
+margin-left: 1em;
+color: hsl(215, 51%, 70%);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color:hsl(178, 100%, 50%);
+}
+
+/* ==============================TEXT================================== */
+
+/* ==============================ICON================================== */
+.ethsection {
+    display: flex;
+    flex-direction: row;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+}
+
+.eth img {
+    width: 1em;
+    margin: 0;
+    margin-right: .4em;
+
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+    padding-left: 4em;
+}
+
+.days img {
+    margin: 0;
+    width: 1.4em;
+    margin-right: .4em;
+}
+
+
+
+/* ==============================ICON================================== */
